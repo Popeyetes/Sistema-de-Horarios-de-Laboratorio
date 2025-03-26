@@ -10,4 +10,6 @@ def navigate(page):
     st.session_state.page = page
 
 if st.session_state.page == 'Iniciar sesión':
-    pass
+    st.title("Iniciar sesión")
+    correo=st.text_input("Nombre")
+    contraseña=st.text_input("Numero de cuenta")
